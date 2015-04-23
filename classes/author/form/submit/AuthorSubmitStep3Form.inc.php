@@ -71,7 +71,7 @@ class AuthorSubmitStep3Form extends AuthorSubmitForm {
 			);
 
 			$authors =& $article->getAuthors();
-			for ($i=0, $count=(count($authors)==1?2:count($authors)); $i < $count; $i++) {
+			for ($i=0, $count=count($authors); $i < $count; $i++) {
 				array_push(
 					$this->_data['authors'],
 					array(
@@ -92,6 +92,8 @@ class AuthorSubmitStep3Form extends AuthorSubmitForm {
 					$this->setData('primaryContact', $i);
 				}
 			}
+		        // Make the minimum of authors be 2
+			if($count == 1) array_push($this->_data['authors'], array());
 		}
 		return parent::initData();
 	}
