@@ -158,7 +158,7 @@
 	<!-- Roles -->
 	<message key="user.role.manager">Editor-Gerente</message>
 	<message key="user.role.editor">Editor</message>
-	<message key="user.role.sectionEditor">Editor de Seção</message>
+	<message key="user.role.sectionEditor">Orientador</message>
 	<message key="user.role.layoutEditor">Editor de Layout</message>
 	<message key="user.role.copyeditor">Editor de Texto</message>
 	<message key="user.role.proofreader">Leitor de Prova</message>
@@ -166,7 +166,7 @@
 	<message key="user.role.subscriptionManager">Gerente de Assinaturas</message>
 	<message key="user.role.managers">Editores-Gerentes</message>
 	<message key="user.role.editors">Editores</message>
-	<message key="user.role.sectionEditors">Editores de Seção</message>
+	<message key="user.role.sectionEditors">Orientadores</message>
 	<message key="user.role.layoutEditors">Editores de Layout</message>
 	<message key="user.role.copyeditors">Editores de Texto</message>
 	<message key="user.role.proofreaders">Leitores de Prova</message>
@@ -308,7 +308,7 @@ Caso o administrador do portal já tenha cadastrado a revista no portal do Colet
 
 	<!-- Setup Step 4 -->
 	<message key="manager.setup.basicEditorialStepsDescription"><![CDATA[Passos: Fila de Submissão > Avaliação de Submissão > Edição de Submissão > Fila de Agendamento > Sumário.<br /><br />
-Escolha um modelo para administrar os aspectos do processo editorial. (Para designar um Editor-Gerente e Editores de Seção, acesse a opção Editores em Administração da Revista.)]]></message>
+Escolha um modelo para administrar os aspectos do processo editorial. (Para designar um Editor-Gerente e Orientadores, acesse a opção Editores em Administração da Revista.)]]></message>
 	
 	<!-- Setup Step 5 -->
 
@@ -1052,7 +1052,7 @@ Pode-se opcionalmente informar o motivo pelo qual está sendo desativado o cadas
 	<message key="user.authorization.noJournal">Nenhum periódico no contexto!</message>
 	<message key="user.authorization.sectionAssignment">Está tentando acessar um artigo que não faz parte da sua seção.</message>
 	<message key="user.authorization.invalidCopyditorSubmission">Submissão do editor de texto inválida ou nenhuma submissão do editor de texto solicitada!</message>
-	<message key="user.authorization.invalidSectionEditorSubmission">Submissão do editor de seção inválida ou nenhuma submissão do editor de seção solicitada!</message>
+	<message key="user.authorization.invalidSectionEditorSubmission">Submissão do orientador inválida ou nenhuma submissão do orientador solicitada!</message>
 	<message key="navigation.categories">Categorias</message>
 	<message key="navigation.categories.browse">Navegar</message>
 	<message key="issue.fullIssue">Edição completa</message>
