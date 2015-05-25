@@ -164,17 +164,7 @@
 				<tr valign="top">
 					<td>
 						{url|assign:"reviewUrl" op="notifyReviewer" reviewId=$reviewAssignment->getId() articleId=$submission->getId()}
-						{if $reviewAssignment->getDateNotified()}
-							{$reviewAssignment->getDateNotified()|date_format:$dateFormatShort}
-							{if !$reviewAssignment->getDateCompleted()}
-								{icon name="mail" url=$reviewUrl}
-							{/if}
-						{elseif $reviewAssignment->getReviewFileId()}
-							{icon name="mail" url=$reviewUrl}
-						{else}
-							{icon name="mail" disabled="disabled" url=$reviewUrl}
-							{assign var=needsReviewFileNote value=1}
-						{/if}
+						{icon name="mail" disabled="disabled" url=$reviewUrl}
 					</td>
 					<td>
 						{$reviewAssignment->getDateConfirmed()|date_format:$dateFormatShort|default:"&mdash;"}
